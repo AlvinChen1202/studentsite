@@ -4,7 +4,18 @@
     <meta charset="utf-8">
     <title>Alvin Student | Work hard, play hard</title>
     <link rel="stylesheet" href="stylesheets/sammy-style.css">
-  </head>
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MBPXMQ436"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-4MBPXMQ436');
+    </script>
+  
+</head>
   <body>
     <header>
       <p><a href="index.html">Alvin Student</a></p>
@@ -27,6 +38,27 @@
           <a href="mailto:sammystudent@myschool.edu"> Send me an email</a>
         </li>
       </ul>
+      <!-- modify this form HTML and place wherever you want your form -->
+      <form
+          action="https://formspree.io/f/xvgaoarr"
+          method="POST"
+          >
+          <label>
+            Your email:
+            <input type="email" name="email">
+          </label>
+          <label>
+            Your message:
+            <textarea name="message"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button>
+      </form>
+
+
+
+
+
     </div>
 
     <footer>
