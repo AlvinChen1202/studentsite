@@ -15,6 +15,31 @@
       gtag('config', 'G-4MBPXMQ436');
     </script>
 
+    <style> /* <!-- ADDED --> */
+      .activity-section {
+        margin-bottom: 40px;
+      }
+
+      .activity-section img {
+        max-width: 20%;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      }
+
+      .activities-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .activity-title {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+    </style>
 
   </head>
   <body>
@@ -34,8 +59,20 @@
       <h1>Hobbies and Activities</h1>
       <ul>
         <li>Fitness</li>
+        <div class="activities-container"> 
+          <div class="activity-section">
+            <img src="images/fitness.JPG" alt="Fitness">
+          </div>
         <li>Basketball</li>
-        <li>Being in a Fraternity</li>
+        <div class="activities-container"> 
+          <div class="activity-section">
+            <img src="images/basketball.JPG" alt="Fitness">
+          </div>
+        <li>Snowboarding</li>
+        <div class="activities-container">
+          <div class="activity-section">
+            <img src="images/snowboarding.JPG" alt="Fitness">
+          </div>
       </ul>
     </div>
 
